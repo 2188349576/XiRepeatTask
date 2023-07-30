@@ -1,0 +1,14 @@
+name: XisRepeatTask
+version: '${project.version}'
+main: cn.hairuosky.xisrepeattask.XiRepeatTaskPlugin
+api-version: '1.19'
+authors: [XiNian_dada]
+website: www.hairuosky.cn
+
+commands:
+  xirepeattask:
+    description: XiRepeatTask plugin command
+    usage: /xirepeattask <reload|help>
+  xrt:
+    description: XiRepeatTask plugin command (short version)
+    usage: /xrt <reload|help>
